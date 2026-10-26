@@ -1,80 +1,136 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# 📱 OTTO Employee Portal
+https://img.shields.io/badge/React-19-blue
+https://img.shields.io/badge/TypeScript-5-blue
+https://img.shields.io/badge/Vite-Latest-purple
+https://img.shields.io/badge/i18next-Multilingual-green
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Internal employee portal for OTTO Work Force employees working at the Rhenus logistics project in Poznań, Poland.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌍 Supported Languages
 
-## React Compiler
+The portal is available in:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🇺🇦 Ukrainian
+- 🇵🇱 Polish
+- 🇷🇺 Russian
+- 🇬🇧 English
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 🚌 Transportation
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Bus schedules for Poznań / Swarzędz routes
+- Bus schedules for Września and surrounding areas
+- Bus stop search
+- Direct Google Maps navigation
+- Downloadable Excel schedules
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 🏖️ Vacation Requests
 
+- Vacation request submission via Microsoft Forms
+- Vacation policy and guidelines
+- Form completion instructions
+- Frequently Asked Questions
+
+### ❌ Absence Reporting
+
+- Absence reporting via Microsoft Forms
+- NNK policy information
+- Sick leave (L4) information
+- Employee guidelines and instructions
+
+### 📞 Contacts
+
+- OTTO coordinators
+- Office contact information
+- WhatsApp and Viber contact options
+- OTTO hotline
+- Emergency numbers in Poland
+- Office location and map
+
+### 📚 Useful Information
+
+- myOTTO application information
+- Employee work shifts
+- Workplace guidelines
+- Project updates and announcements
+
+---
+
+## 🛠 Technology Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- i18next
+- Lucide React
+
+---
+
+## 📂 Project Structure
+
+```text
+src
+├── assets
+├── components
+├── data
+├── hooks
+├── i18n
+├── layouts
+├── locales
+├── pages
+├── routes
+├── services
+└── types
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## 🌐 Deployment
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+The project is configured for deployment on:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Vercel
+- Netlify
 
+For React Router support, the project includes:
+
+```json
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
 ```
-=======
-# otto-rhenus-portal
 
->>>>>>> 42fbcee65896c619011e354ed2885b820abf8a6f
+---
+
+## 🔐 Access Protection
+
+The portal uses a simple access code mechanism stored locally in the browser to restrict access to employees.
+
+---
+
+## 📱 Integrations
+
+- Microsoft Forms
+- Google Maps
+- myOTTO
+- Multilingual support through i18next
+
+---
+
+## 👩‍💻 Author
+
+**Yuliya Masechko**
+
+Employee Portal for OTTO Work Force – Rhenus Poznań
+
+© 2026
