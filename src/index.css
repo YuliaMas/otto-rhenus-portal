@@ -1,0 +1,91 @@
+@import "tailwindcss";
+:root {
+    --otto-blue: #002b87;
+    --otto-orange: #ff6b00;
+}
+html,
+body,
+#root {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*body {*/
+/*    margin: 0;*/
+/*    font-family: Arial, sans-serif;*/
+/*    background-color: #f5f7fa;*/
+/*}*/
+
+/*.header {*/
+/*    background: white;*/
+/*    border-bottom: 3px solid #ff6b00;*/
+/*    box-shadow: 0 2px 8px rgba(0,0,0,0.08);*/
+/*}*/
+
+/*.header-container {*/
+/*    max-width: 1400px;*/
+/*    margin: 0 auto;*/
+
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.logo-section {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.logo-section h2 {*/
+/*    font-size: 1.3rem;*/
+/*}*/
+
+/*.logo-section span {*/
+/*    font-size: 0.8rem;*/
+/*    color: #dbeafe;*/
+/*}*/
+
+/*.navigation {*/
+/*    display: flex;*/
+/*    gap: 1.5rem;*/
+/*}*/
+
+/*.navigation a {*/
+/*    color: #002b87;*/
+/*    text-decoration: none;*/
+/*    font-weight: 600;*/
+/*}*/
+
+/*.navigation a:hover {*/
+/*    color: #ff6b00;*/
+/*}*/
+
+/*.navigation a.active {*/
+/*    color: #ff6b00;*/
+/*}*/
+
+/*.languages {*/
+/*    display: flex;*/
+/*    gap: 0.5rem;*/
+/*}*/
+
+/*.languages button {*/
+/*    border: none;*/
+/*    padding: 0.4rem 0.8rem;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    background-color: white;*/
+/*    color: #002b87;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.logo {*/
+/*    height: 55px;*/
+/*    width: auto;*/
+/*    display: block;*/
+/*}*/

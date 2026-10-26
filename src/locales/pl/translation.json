@@ -1,0 +1,147 @@
+{
+  "home": "Strona główna",
+  "news": "Aktualności",
+  "information": "Przydatne informacje",
+  "vacation": "Urlop",
+  "absence": "Nieobecności",
+  "transport": "Transport",
+  "transportPoznan": "Poznań / Swarzędz",
+  "transportWrzesnia": "Września i okolice",
+  "transportPoznanTitle": "Transport Poznań i Swarzędz",
+  "transportWrzesniaTitle": "Transport Września i okolice",
+  "logout": "Wyloguj",
+
+  "downloadSchedule": "Pobierz rozkład",
+  "downloadExcel": "Pobierz plik Excel",
+
+  "searchStop": "Szukaj przystanku...",
+
+  "contacts": "Kontakt",
+  "portalTitle": "Portal pracownika",
+  "portalSubtitle": "Rhenus Poznań",
+  "heroTitle": "Witamy w Portalu Pracownika",
+  "heroDescription": "Wszystkie niezbędne informacje dla pracowników OTTO Work Force pracujących w Rhenus Poznań.",
+
+  "vacationTitle": "Urlopy",
+  "vacationImportant": "Ważna informacja",
+  "vacationImportantText": "Ze względu na znaczny wzrost liczby pracowników wprowadzono nowe zasady składania wniosków urlopowych.",
+
+  "vacationFormButton": "Złóż wniosek urlopowy",
+
+  "vacationRulesTitle": "Zasady udzielania urlopów",
+
+  "vacationRules": [
+    "Wnioski urlopowe przyjmowane są wyłącznie przez formularz.",
+    "Formularz należy wypełnić do godziny 13:00 od poniedziałku do piątku.",
+    "Wnioski wysłane po godzinie 13:00 lub prywatnie do konsultantów nie będą rozpatrywane.",
+    "Urlopy na dalsze terminy mogą być zatwierdzane później.",
+    "Priorytet mają urlopy na najbliższe terminy.",
+    "Prosimy planować urlop z wyprzedzeniem.",
+    "Wnioski składane dzień przed urlopem powinny być wyjątkową sytuacją.",
+    "Nowi pracownicy oraz osoby ponownie zatrudnione nie mogą składać wniosków urlopowych w pierwszym miesiącu pracy."
+  ],
+
+  "vacationInstructionsTitle": "Instrukcja wypełnienia formularza",
+
+  "vacationInstructions": [
+    "W polu POZ wpisz POZ oraz swój 4-cyfrowy numer pracownika bez spacji.",
+    "Imię i nazwisko wpisz zgodnie z paszportem, alfabetem łacińskim.",
+    "Jeżeli potrzebny jest tylko jeden dzień urlopu, wybierz tę samą datę dwa razy.",
+    "W przypadku pomyłki skontaktuj się z konsultantem.",
+    "Nie wysyłaj duplikatów formularzy dla tego samego okresu."
+  ],
+
+
+  "absenceTitle": "Nieobecności",
+
+  "absenceImportant": "Ważna informacja",
+
+  "absenceImportantText": "Użyj formularza, aby zgłosić nieobecność, spóźnienie lub inną absencję.",
+
+  "absenceFormButton": "Zgłoś nieobecność",
+
+  "absenceRulesTitle": "Zasady zgłaszania nieobecności",
+
+  "absenceRules": [
+    "Zgłaszaj nieobecność jak najwcześniej.",
+    "Nie czekaj do rozpoczęcia zmiany.",
+    "W przypadku zwolnienia lekarskiego poinformuj konsultanta.",
+    "Nie wysyłaj kilku identycznych formularzy.",
+    "Dla każdej nowej nieobecności użyj nowego formularza."
+  ],
+
+  "absenceInstructionsTitle": "Instrukcja",
+
+  "absenceInstructions": [
+    "Wypełnij wszystkie wymagane pola.",
+    "Podaj prawidłową datę nieobecności.",
+    "Podaj powód nieobecności.",
+    "W razie potrzeby dodaj komentarz.",
+    "Po wysłaniu formularza oczekuj odpowiedzi konsultanta."
+  ],
+
+  "absenceNormsTitle": "Normy i konsekwencje nieobecności",
+
+  "absenceNorms": [
+    "1 NNK – normy pozostają bez zmian.",
+    "2 NNK – pracownik traci normy.",
+    "4 i więcej NNK – decyzja o zwolnieniu może zostać podjęta. Należy dostarczyć wyjaśnienie oraz dokument potwierdzający (L4 lub inny dokument).",
+    "Urlop nie wpływa na normy.",
+    "L4 powoduje utratę norm oraz brak premii za dany miesiąc."
+  ],
+
+  "infoTitle": "Przydatne informacje",
+
+  "myOttoTitle": "myOTTO",
+  "myOttoDescription": "W aplikacji myOTTO możesz sprawdzić wynagrodzenie, podatki, dokumenty i wiadomości.",
+  "myOttoLogin": "Login do pierwszego logowania przekazuje koordynator. Hasło pracownik ustawia samodzielnie.",
+
+  "shiftTitle": "Zmiany robocze",
+
+  "importantUpdates": "Ostatnie zmiany",
+
+  "transportUpdate": "Nowy rozkład autobusów od 26.10.2026",
+  "jesionowaUpdate": "Zmieniono przystanek Jesionowa",
+  "wrzesniaUpdate": "Dodano trasę Września i okolice",
+
+  "objectRules": "Przydatne informacje dla pracowników",
+
+  "redShirt": "W pracy należy nosić czerwone koszulki.",
+  "absenceNotice": "Wszystkie nieobecności należy zgłaszać konsultantowi.",
+  "vacationNotice": "Urlop należy zgłaszać minimum tydzień wcześniej.",
+  "salaryInfo": "Wynagrodzenie jest wypłacane na konto bankowe do 15 dnia miesiąca .",
+  "advanceInfo": "W pierwszym miesiącu pracy można otrzymać zaliczkę do 500 PLN brutto.",
+
+  "contactsTitle": "Kontakty",
+  "coordinatorsTitle": "Koordynatorzy",
+
+  "callButton": "Zadzwoń",
+
+  "officeTitle": "Biuro OTTO",
+
+  "officeHours": "Poniedziałek - Piątek",
+
+  "officeOpenHours": "08:00 - 16:00",
+
+  "officeAutoReply": "Po uruchomieniu automatycznej sekretarki wybierz 1.",
+
+  "hotlineTitle": "Infolinia OTTO",
+
+  "workplaceTitle": "Miejsce pracy",
+
+  "officeAddress": "Adres biura",
+
+  "emergencyTitle": "Numery alarmowe w Polsce",
+
+
+  "vacationNormInfoTitle": "Ważne",
+
+  "vacationNormInfoText": "Urlop nie wpływa na normy pracownika.",
+
+
+  "footerPortal": " OTTO Work Force Solutions",
+  "footerDeveloped": "Opracowane przez Julię Maseczko dla pracowników Rhenus Poznań"
+
+
+}
+

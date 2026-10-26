@@ -1,0 +1,146 @@
+ {
+     "home": "Home",
+     "news": "News",
+     "vacation": "Vacation",
+     "transport": "Transport",
+     "transportPoznan": "Poznań / Swarzędz",
+     "transportWrzesnia": "Września i okolice",
+     "transportPoznanTitle": "Transport Poznań and Swarzędz",
+     "transportWrzesniaTitle": "Transport Wrzeshnia and surrounding areas",
+     "logout": "Logout",
+
+
+   "downloadSchedule": "Download timetable",
+     "downloadExcel": "Download Excel file",
+     "searchStop": "Search stop...",
+
+     "absence": "Absence",
+     "contacts": "Contacts",
+     "portalTitle": "Employee Portal",
+     "portalSubtitle": "Rhenus Poznan",
+     "heroTitle": "Welcome to Employee Portal",
+     "heroDescription": "All essential information for OTTO Work Force employees working at Rhenus Poznan.",
+
+
+     "vacationTitle": "Vacation",
+     "vacationImportant": "Important Information",
+     "vacationImportantText": "Due to the significant increase in the number of employees, new vacation request rules have been introduced.",
+
+     "vacationFormButton": "Submit Vacation Request",
+
+     "vacationRulesTitle": "Vacation Rules",
+
+     "vacationRules": [
+     "Vacation requests are accepted only through the form.",
+     "The form must be submitted by 1:00 PM Monday to Friday.",
+     "Requests submitted after 1:00 PM or sent privately to consultants will not be accepted.",
+     "Vacation requests for distant dates may be approved later.",
+     "Requests for the nearest dates are processed first.",
+     "Please plan your vacation in advance.",
+     "Vacation requests submitted one day before the leave should be exceptional cases.",
+     "New employees and rehired employees cannot request vacation during their first month of employment."
+ ],
+
+     "vacationInstructionsTitle": "Form Instructions",
+
+     "vacationInstructions": [
+     "Enter POZ and your 4-digit employee number without spaces in the POZ field.",
+     "Enter your first and last name exactly as in your passport using the Latin alphabet.",
+     "If you need only one vacation day, select the same date twice.",
+     "If you make a mistake, contact your consultant.",
+     "Do not submit duplicate requests for the same vacation period."
+ ],
+
+
+
+     "absenceTitle": "Absence Reporting",
+
+     "absenceImportant": "Important Information",
+
+     "absenceImportantText": "Use the form to report absence, lateness or any other attendance issue.",
+
+     "absenceFormButton": "Report Absence",
+
+     "absenceRulesTitle": "Absence Reporting Rules",
+
+     "absenceRules": [
+     "Report your absence as early as possible.",
+     "Do not wait until the start of the shift.",
+     "In case of sick leave, inform your consultant as well.",
+     "Do not submit duplicate forms.",
+     "Use a separate form for each absence."
+ ],
+
+     "absenceInstructionsTitle": "Instructions",
+
+     "absenceInstructions": [
+     "Complete all required fields.",
+     "Provide the correct absence date.",
+     "Specify the reason for absence.",
+     "Add a comment if necessary.",
+     "Wait for consultant feedback after submission."
+ ],
+
+     "absenceNormsTitle": "Standards and Consequences",
+
+     "absenceNorms": [
+     "1 absence (NNK) – standards remain unchanged.",
+     "2 absences (NNK) – standards are removed.",
+     "4 or more absences (NNK) – termination may be considered. Supporting documents (L4 or another document) are required.",
+     "Vacation does not affect standards.",
+     "Sick leave (L4) removes standards and monthly bonus eligibility."
+ ],
+
+     "information": "Useful Information",
+
+     "infoTitle": "Useful Information",
+
+     "myOttoTitle": "myOTTO",
+     "myOttoDescription": "Through myOTTO employees can check salary, taxes, documents and notifications.",
+     "myOttoLogin": "The first login credentials are provided by the coordinator. Employees set their own password afterwards.",
+
+     "shiftTitle": "Work Shifts",
+
+     "importantUpdates": "Latest Updates",
+
+     "transportUpdate": "New bus schedule from 26.10.2026",
+     "jesionowaUpdate": "Jesionowa stop updated",
+     "wrzesniaUpdate": "Września route added",
+
+   "objectRules": "Useful Employee Information",
+
+   "redShirt": "Red T-shirts are required at work.",
+   "absenceNotice": "All absences must be reported to the coordinator.",
+   "vacationNotice": "Vacation requests should be submitted at least one week in advance.",
+   "salaryInfo": "Salary is paid to a bank account by the 15th of the month.",
+   "advanceInfo": "During the first month of employment employees may request an advance up to 500 PLN gross.",
+
+   "contactsTitle": "Contacts",
+   "coordinatorsTitle": "Coordinators",
+
+   "callButton": "Call",
+
+   "officeTitle": "OTTO Office",
+   "officeHours": "Monday - Friday",
+   "officeOpenHours": "08:00 - 16:00",
+
+   "officeAutoReply": "After the automated message starts, select option 1.",
+
+   "hotlineTitle": "OTTO Hotline",
+
+   "workplaceTitle": "Workplace",
+
+   "officeAddress": "Office Address",
+
+   "emergencyTitle": "Emergency Numbers in Poland",
+
+
+   "vacationNormInfoTitle": "Important",
+
+   "vacationNormInfoText": "Vacation does not affect employee standards.",
+
+
+   "footerPortal": "OTTO Work Force Solutions",
+   "footerDeveloped": "Developed by Yuliya Masechko for Rhenus Poznan employees"
+
+  }
