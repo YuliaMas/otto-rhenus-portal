@@ -1,99 +1,3 @@
-//
-// import { useTranslation } from "react-i18next";
-//
-// type Props = {
-//     mobile?: boolean;
-//     onSelect?: () => void;
-// };
-//
-// export default function LanguageSwitcher({
-//                                              mobile = false,
-//                                              onSelect,
-//                                          }: Props) {
-//
-//     const { i18n } = useTranslation();
-//
-//     const languages = [
-//         {
-//             code: "ua",
-//             label: "UA",
-//         },
-//         {
-//             code: "pl",
-//             label: "PL",
-//         },
-//         {
-//             code: "ru",
-//             label: "RU",
-//         },
-//         {
-//             code: "en",
-//             label: "EN",
-//         },
-//     ];
-//
-//     const handleLanguageChange = (language: string) => {
-//
-//         i18n.changeLanguage(language);
-//
-//         localStorage.setItem(
-//             "language",
-//             language
-//         );
-//
-//         onSelect?.();
-//     };
-//
-//     return (
-//         <div
-//             className={
-//                 mobile
-//                     ? "mt-6 flex flex-wrap gap-2"
-//                     : "hidden items-center gap-3 lg:flex"
-//             }
-//         >
-//             {languages.map((language) => {
-//
-//                 const active =
-//                     i18n.language === language.code;
-//
-//                 return (
-//                     <button
-//                         key={language.code}
-//                         onClick={() =>
-//                             handleLanguageChange(
-//                                 language.code
-//                             )
-//                         }
-//                         className={`
-//                             flex
-//                             h-12
-//                             w-16
-//                             items-center
-//                             justify-center
-//
-//                             rounded-xl
-//
-//                             text-sm
-//                             font-semibold
-//
-//                             transition-all
-//                             duration-200
-//
-//                             ${
-//                             active
-//                                 ? "bg-[#002b87] text-white shadow-md"
-//                                 : "border border-slate-300 bg-white text-slate-700 hover:bg-slate-100"
-//                         }
-//                         `}
-//                     >
-//                         {language.label}
-//                     </button>
-//                 );
-//             })}
-//         </div>
-//     );
-// }
 import {ChevronDown} from "lucide-react";
 import { useTranslation } from "react-i18next";
 import {
@@ -292,13 +196,9 @@ export default function LanguageSwitcher({
                         >
                             {lang.label}
                         </button>
-
                     ))}
-
                 </div>
-
             )}
-
         </div>
     );
 }

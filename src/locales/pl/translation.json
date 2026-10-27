@@ -140,7 +140,15 @@
 
 
   "footerPortal": " OTTO Work Force Solutions",
-  "footerDeveloped": "Opracowane przez Julię Maseczko dla pracowników Rhenus Poznań"
+  "footerDeveloped": "Opracowane przez Julię Maseczko dla pracowników Rhenus Poznań",
+
+
+  "loginPortal": "Portal Pracownika",
+  "loginDescription": "Wprowadź kod dostępu",
+  "loginPlaceholder": "Hasło",
+  "loginButton": "Zaloguj się",
+  "loginError": "Nieprawidłowe hasło"
+
 
 
 }

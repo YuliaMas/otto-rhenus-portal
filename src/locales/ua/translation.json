@@ -169,8 +169,14 @@
 
 
   "footerPortal": "OTTO Work Force Solutions",
-  "footerDeveloped": "Розроблено Юлією Масечко для працівників Rhenus Познань"
+  "footerDeveloped": "Розроблено Юлією Масечко для працівників Rhenus Познань",
 
+
+  "loginPortal": "Портал працівника",
+  "loginDescription": "Введіть код доступу",
+  "loginPlaceholder": "Пароль",
+  "loginButton": "Увійти",
+  "loginError": "Невірний пароль"
 
 }
 

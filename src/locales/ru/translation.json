@@ -146,6 +146,14 @@
   "vacationNormInfoText": "Отпуск не влияет на нормы сотрудника.",
 
   "footerPortal": "OTTO Work Force Solutions",
-  "footerDeveloped": "Разработано Юлией Масечко для сотрудников Rhenus Познань"
+  "footerDeveloped": "Разработано Юлией Масечко для сотрудников Rhenus Познань",
+
+
+  "loginPortal": "Портал сотрудника",
+  "loginDescription": "Введите код доступа",
+  "loginPlaceholder": "Пароль",
+  "loginButton": "Войти",
+  "loginError": "Неверный пароль"
+
 
 }

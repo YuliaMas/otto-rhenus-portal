@@ -141,6 +141,15 @@
 
 
    "footerPortal": "OTTO Work Force Solutions",
-   "footerDeveloped": "Developed by Yuliya Masechko for Rhenus Poznan employees"
+   "footerDeveloped": "Developed by Yuliya Masechko for Rhenus Poznan employees",
+
+
+
+   "loginPortal": "Employee Portal",
+   "loginDescription": "Enter access code",
+   "loginPlaceholder": "Password",
+   "loginButton": "Sign In",
+   "loginError": "Invalid password"
+
 
   }

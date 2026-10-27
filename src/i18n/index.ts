@@ -6,30 +6,51 @@ import pl from "../locales/pl/translation.json";
 import ru from "../locales/ru/translation.json";
 import en from "../locales/en/translation.json";
 
-i18n.use(initReactI18next).init({
+const browserLanguage =
+    navigator.language.split("-")[0];
 
+const supportedLanguages = [
+    "ua",
+    "pl",
+    "ru",
+    "en",
+];
+
+const defaultLanguage =
+    supportedLanguages.includes(
+        browserLanguage
+    )
+        ? browserLanguage
+        : "uak";
+
+i18n.use(initReactI18next).init({
     resources: {
         ua: {
-            translation: ua
+            translation: ua,
         },
+
         pl: {
-            translation: pl
+            translation: pl,
         },
+
         ru: {
-            translation: ru
+            translation: ru,
         },
+
         en: {
-            translation: en
-        }
+            translation: en,
+        },
     },
 
-    lng: localStorage.getItem("language") || "ua",
+    lng:
+        localStorage.getItem("language")
+        || defaultLanguage,
 
-    fallbackLng: "en",
+    fallbackLng: "ua",
 
     interpolation: {
-        escapeValue: false
-    }
+        escapeValue: false,
+    },
 });
 
 export default i18n;

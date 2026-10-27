@@ -1,4 +1,5 @@
 # 📱 OTTO Employee Portal
+
 https://img.shields.io/badge/React-19-blue
 https://img.shields.io/badge/TypeScript-5-blue
 https://img.shields.io/badge/Vite-Latest-purple
