@@ -21,9 +21,7 @@ export default function AdminNewsCard({ item, onEdit, onDelete, onTogglePin }: P
             <div>
                 <div className="mb-1 flex items-center gap-2 text-sm text-slate-500">
                     <span className="rounded-md bg-slate-100 px-2 py-0.5 font-medium uppercase text-slate-700">
-                        {/*{item.news_type} */}
                         {t(`type_${item.news_type}`)}
-
                     </span>
                     <span>{item.news_date}</span>
                     {item.is_pinned && (
@@ -31,7 +29,6 @@ export default function AdminNewsCard({ item, onEdit, onDelete, onTogglePin }: P
                     )}
                 </div>
 
-                {/*<h3 className="text-lg font-bold text-slate-800">{item.title_uk}</h3>*/}
                 <h3 className="flex items-center gap-2 text-lg font-bold text-slate-800">
                     <span>{newsIcons[item.news_type]}</span>
                     <span>{title}</span>

@@ -6,7 +6,6 @@ import LanguageTabs, { type LangCode } from "./LanguageTabs";
 import {useTranslation} from "react-i18next";
 import { newsIcons } from "../../data/newsIcons";
 
-
 type Props = {
     editingItem: NewsItem | null;
     onCancelEdit: () => void;
@@ -38,29 +37,6 @@ export default function AdminNewsForm({ editingItem, onCancelEdit, onSaved }: Pr
         editingItem?.news_date ?? new Date().toISOString().split("T")[0]
     );
     const [saving, setSaving] = useState(false);
-
-    // useEffect(() => {
-    //     if (editingItem) {
-    //         setNewsType(editingItem.news_type);
-    //         setNewsDate(editingItem.news_date);
-    //         setIsPinned(editingItem.is_pinned);
-    //         setTitles({
-    //             uk: editingItem.title_uk,
-    //             pl: editingItem.title_pl,
-    //             ru: editingItem.title_ru,
-    //             en: editingItem.title_en,
-    //         });
-    //         setContents({
-    //             uk: editingItem.content_uk,
-    //             pl: editingItem.content_pl,
-    //             ru: editingItem.content_ru,
-    //             en: editingItem.content_en,
-    //         });
-    //     } else {
-    //         resetForm();
-    //     }
-    // }, [editingItem]);
-
 
     function resetForm() {
         setTitles({ uk: "", pl: "", ru: "", en: "" });

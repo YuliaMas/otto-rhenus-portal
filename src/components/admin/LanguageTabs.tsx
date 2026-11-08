@@ -1,35 +1,3 @@
-// type Props = {
-//     active: "uk" | "pl" | "ru" | "en";
-//
-//     onChange: (lang: "uk" | "pl" | "ru" | "en") => void;
-// };
-//
-// export default function LanguageTabs({active, onChange,}: Props) {
-//
-//     const tabs = ["uk", "pl", "ru", "en",];
-//
-//     return (
-//         <div className="mb-4 flex  gap-2">
-//             {tabs.map(tab => (
-//                 <button
-//                     key={tab}
-//                     onClick={() =>
-//                         onChange(tab as typeof active)
-//                     }
-//                     className={` rounded-xl px-4 py-2  font-medium
-//                         ${active === tab
-//                             ? "bg-[#002b87] text-white"
-//                             : "bg-slate-200"
-//                          }
-//                     `}
-//                 >
-//                     {tab.toUpperCase()}
-//                 </button>
-//             ))}
-//         </div>
-//     );
-// }
-
 export type LangCode = "uk" | "pl" | "ru" | "en";
 
 type Props = {
