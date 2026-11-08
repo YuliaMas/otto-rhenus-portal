@@ -212,8 +212,9 @@
   "type_absence": "Прогули",
   "type_contact": "Контакти",
   "type_schedule": "Графік",
-  "type_other": "Інше"
+  "type_other": "Інше",
 
+  "allCategories": "Усі"
 
 }
 

@@ -175,7 +175,9 @@
   "type_absence": "Nieobecności",
   "type_contact": "Kontakt",
   "type_schedule": "Grafik",
-  "type_other": "Inne"
+  "type_other": "Inne",
+
+  "allCategories": "Wszystkie"
 
 
 }

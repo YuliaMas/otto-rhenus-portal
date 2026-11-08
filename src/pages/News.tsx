@@ -7,12 +7,14 @@ import type { NewsItem } from "../types/news_type";
 import NewsCard from "../components/news/NewsCard";
 import NewsSkeleton from "../components/news/NewsSkeleton";
 import Pagination from "../components/common/Pagination";
+import NewsCategoryFilter, { type FilterCategory } from "../components/news/NewsCategoryFilter";
 
 const CACHE_KEY = "cached_news";
 const ITEMS_PER_PAGE = 2; // News on one page
 
 export default function News() {
     const { t } = useTranslation();
+    const [selectedCategory, setSelectedCategory] = useState<FilterCategory>("all");
     const [searchParams, setSearchParams] = useSearchParams();
 
     const [news, setNews] = useState<NewsItem[]>(() => {
@@ -24,6 +26,7 @@ export default function News() {
         }
     });
 
+
     const [loading, setLoading] = useState(news.length === 0);
 
     useEffect(() => {
@@ -34,6 +37,8 @@ export default function News() {
             })
             .finally(() => setLoading(false));
     }, []);
+
+
 
     const sortedNews = useMemo(() => {
         return [...news].sort((a, b) => {
@@ -50,15 +55,20 @@ export default function News() {
         });
     }, [news]);
 
+    const filteredNews = useMemo(() => {
+        if (selectedCategory === "all") return sortedNews;
+        return sortedNews.filter((item) => item.news_type === selectedCategory);
+    }, [sortedNews, selectedCategory]);
+
     // Pages
-    const totalPages = Math.max(1, Math.ceil(sortedNews.length / ITEMS_PER_PAGE));
+    const totalPages = Math.max(1, Math.ceil(filteredNews.length / ITEMS_PER_PAGE));
     const rawPage = Number(searchParams.get("page")) || 1;
     const currentPage = Math.min(Math.max(1, rawPage), totalPages);
 
     const paginatedNews = useMemo(() => {
         const start = (currentPage - 1) * ITEMS_PER_PAGE;
-        return sortedNews.slice(start, start + ITEMS_PER_PAGE);
-    }, [sortedNews, currentPage]);
+        return filteredNews.slice(start, start + ITEMS_PER_PAGE);
+    }, [filteredNews, currentPage]);
 
     function handlePageChange(page: number) {
         if (page === 1) {
@@ -71,6 +81,15 @@ export default function News() {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
+    function handleCategoryChange(category: FilterCategory) {
+        setSelectedCategory(category);
+        if (searchParams.has("page")) {
+            searchParams.delete("page");
+            setSearchParams(searchParams);
+        }
+    }
+
+
     return (
         <div className="min-h-screen bg-slate-100">
             <div className="mx-auto max-w-7xl px-4 py-8">
@@ -79,9 +98,11 @@ export default function News() {
                     {t("news")}
                 </h1>
 
+                <NewsCategoryFilter selected={selectedCategory} onChange={handleCategoryChange} />
+
                 {loading ? (
                     <NewsSkeleton />
-                ) : sortedNews.length === 0 ? (
+                ) : filteredNews.length === 0 ? (
                     <div className="rounded-3xl bg-white p-10 text-center text-slate-500 shadow">
                         {t("noNews")}
                     </div>

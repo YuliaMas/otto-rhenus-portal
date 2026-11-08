@@ -185,7 +185,9 @@
    "type_absence": "Absence",
    "type_contact": "Contact",
    "type_schedule": "Schedule",
-   "type_other": "Other"
+   "type_other": "Other",
+
+   "allCategories": "All"
 
 
-  }
+ }

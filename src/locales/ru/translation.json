@@ -189,8 +189,8 @@
   "type_absence": "Прогулы",
   "type_contact": "Контакты",
   "type_schedule": "График",
-  "type_other": "Другое"
+  "type_other": "Другое",
 
-
+  "allCategories": "Все"
 
 }
