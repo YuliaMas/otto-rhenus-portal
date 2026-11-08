@@ -250,7 +250,7 @@ export default function Vacation() {
             <div className="mx-auto max-w-7xl px-4 py-8">
 
                 <h1 className="mb-8 text-4xl font-bold text-[#002b87]">
-                    🏖️ {t("vacationTitle")}
+                    🗓️ {t("vacationTitle")}
                 </h1>
 
                 <div

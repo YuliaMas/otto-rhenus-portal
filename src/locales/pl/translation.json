@@ -2,7 +2,6 @@
   "home": "Strona główna",
   "news": "Aktualności",
   "information": "Przydatne informacje",
-  "vacation": "Urlop",
   "absence": "Nieobecności",
   "transport": "Transport",
   "transportPoznan": "Poznań / Swarzędz",
@@ -17,48 +16,16 @@
   "searchStop": "Szukaj przystanku...",
 
   "contacts": "Kontakt",
-  "portalTitle": "Portal pracownika",
+  "portalTitle": "Portal informacyjny",
   "portalSubtitle": "Rhenus Poznań",
   "heroTitle": "Witamy w Portalu Pracownika",
   "heroDescription": "Wszystkie niezbędne informacje dla pracowników OTTO Work Force pracujących w Rhenus Poznań.",
-
-  "vacationTitle": "Urlopy",
-  "vacationImportant": "Ważna informacja",
-  "vacationImportantText": "Ze względu na znaczny wzrost liczby pracowników wprowadzono nowe zasady składania wniosków urlopowych.",
-
-  "vacationFormButton": "Złóż wniosek urlopowy",
-
-  "vacationRulesTitle": "Zasady udzielania urlopów",
-
-  "vacationRules": [
-    "Wnioski urlopowe przyjmowane są wyłącznie przez formularz.",
-    "Formularz należy wypełnić do godziny 13:00 od poniedziałku do piątku.",
-    "Wnioski wysłane po godzinie 13:00 lub prywatnie do konsultantów nie będą rozpatrywane.",
-    "Urlopy na dalsze terminy mogą być zatwierdzane później.",
-    "Priorytet mają urlopy na najbliższe terminy.",
-    "Prosimy planować urlop z wyprzedzeniem.",
-    "Wnioski składane dzień przed urlopem powinny być wyjątkową sytuacją.",
-    "Nowi pracownicy oraz osoby ponownie zatrudnione nie mogą składać wniosków urlopowych w pierwszym miesiącu pracy."
-  ],
-
-  "vacationInstructionsTitle": "Instrukcja wypełnienia formularza",
-
-  "vacationInstructions": [
-    "W polu POZ wpisz POZ oraz swój 4-cyfrowy numer pracownika bez spacji.",
-    "Imię i nazwisko wpisz zgodnie z paszportem, alfabetem łacińskim.",
-    "Jeżeli potrzebny jest tylko jeden dzień urlopu, wybierz tę samą datę dwa razy.",
-    "W przypadku pomyłki skontaktuj się z konsultantem.",
-    "Nie wysyłaj duplikatów formularzy dla tego samego okresu."
-  ],
-
 
   "absenceTitle": "Nieobecności",
 
   "absenceImportant": "Ważna informacja",
 
   "absenceImportantText": "Użyj formularza, aby zgłosić nieobecność, spóźnienie lub inną absencję.",
-
-  "absenceFormButton": "Zgłoś nieobecność",
 
   "absenceRulesTitle": "Zasady zgłaszania nieobecności",
 
@@ -133,15 +100,8 @@
 
   "emergencyTitle": "Numery alarmowe w Polsce",
 
-
-  "vacationNormInfoTitle": "Ważne",
-
-  "vacationNormInfoText": "Urlop nie wpływa na normy pracownika.",
-
-
   "footerPortal": " OTTO Work Force Solutions",
-  "footerDeveloped": "Opracowane przez Julię Maseczko dla pracowników Rhenus Poznań",
-
+  "footerDeveloped": "Opracowane przez Julię Maseczko dla Rhenus Poznań",
 
   "loginPortal": "Portal Pracownika",
   "loginDescription": "Wprowadź kod dostępu",
@@ -171,14 +131,42 @@
   "confirmDelete": "Usunąć tę aktualność?",
   "type_important": "Ważne",
   "type_transport": "Transport",
-  "type_vacation": "Urlop",
   "type_absence": "Nieobecności",
   "type_contact": "Kontakt",
   "type_schedule": "Grafik",
   "type_other": "Inne",
 
-  "allCategories": "Wszystkie"
+  "allCategories": "Wszystkie",
 
+  "vacation": "Dni wolne",
+  "type_vacation": "Dni wolne",
+  "vacationTitle": "Zgłoszenie dni wolnych (Umowa zlecenia)",
+  "vacationNormInfoTitle": "Informacja dotycząca umowy zlecenia",
+  "vacationNormInfoText": "Osoby zatrudnione na podstawie umowy zlecenia nie posiadają płatnego urlopu wypoczynkowego, ale mogą wcześniej uzgodnić bezpłatne dni wolne (dni bez zmian) zgodnie z zasadami magazynu.",
+  "vacationImportant": "Ważne!",
+  "vacationImportantText": "W związku ze znacznym wzrostem liczby pracowników wprowadzono nowe zasady zgłaszania dni wolnych. Nieobecność w pracy bez zaakceptowanego wniosku traktowana jest jako nieusprawiedliwiona.",
+  "vacationFormButton": "Złóż wniosek o dzień wolny",
+  "absenceFormButton": "Zgłoś nagłą nieobecność",
+  "vacationRulesTitle": "Zasady zgłaszania dni wolnych",
+  "vacationRules": [
+    "Wnioski o dni wolne przyjmowane są wyłącznie przez oficjalny formularz.",
+    "Formularz należy wysłać do godziny 13:00 od poniedziałku do piątku.",
+    "Zgłoszenia wysłane po godzinie 13:00 lub prywatnie do konsultantów nie będą akceptowane.",
+    "Wnioski na odległe terminy mogą być rozpatrywane później — w pierwszej kolejności akceptowane są najbliższe daty.",
+    "Prosimy o planowanie dni wolnych z wyprzedzeniem.",
+    "Zgłoszenie dnia wolnego na jeden dzień przed planowaną nieobecnością dotyczy wyłącznie wyjątkowych sytuacji.",
+    "Nowi pracownicy oraz osoby zatrudnione ponownie nie mogą brać dni wolnych w pierwszym miesiącu pracy.",
+    "Dni wolne na umowie zlecenia są bezpłatne i obowiązują dopiero po zatwierdzeniu."
+  ],
+  "vacationInstructionsTitle": "Instrukcja wypełniania formularza",
+  "vacationInstructions": [
+    "W polu POZ wpisz «POZ» oraz swój 4-cyfrowy numer pracownika bez spacji (np. POZ1234).",
+    "Wpisz imię i nazwisko alfabetem łacińskim dokładnie tak, jak w paszporcie.",
+    "Jeśli potrzebujesz tylko jednego dnia wolnego, wybierz tę samą datę dwukrotnie.",
+    "Jeśli popełnisz błąd w formularzu, skontaktuj się ze swoim konsultantem.",
+    "Nie wysyłaj zduplikowanych wniosków na ten sam okres.",
+    "W przypadku nagłej choroby lub sytuacji losowej użyj przycisku «Zgłoś nagłą nieobecność»."
+  ]
 
 }
 
