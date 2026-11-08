@@ -151,9 +151,32 @@
 
   "newsTitle": "Aktualności",
 
-  "adminNews": "Aktualności - panel",
+  "adminNews": "Zarządzanie aktualnościami",
   "publish": "Publikuj",
-  "updateNews": "Aktualizuj"
+  "updateNews": "Aktualizuj",
+
+  "editingNews": "Edycja aktualności",
+  "cancel": "Anuluj",
+  "pinNews": "Przypnij aktualność",
+  "titlePlaceholder": "Tytuł",
+  "contentPlaceholder": "Treść aktualności",
+  "publishNews": "Opublikuj aktualność",
+  "saving": "Zapisywanie...",
+  "pin": "Przypnij",
+  "unpin": "Odepnij",
+  "pinnedBadge": "Przypięto",
+  "edit": "Edytuj",
+  "delete": "Usuń",
+  "noNews": "Brak aktualności",
+  "confirmDelete": "Usunąć tę aktualność?",
+  "type_important": "Ważne",
+  "type_transport": "Transport",
+  "type_vacation": "Urlop",
+  "type_absence": "Nieobecności",
+  "type_contact": "Kontakt",
+  "type_schedule": "Grafik",
+  "type_other": "Inne"
+
 
 }
 

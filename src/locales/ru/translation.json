@@ -156,7 +156,41 @@
   "loginError": "Неверный пароль",
 
 
-  "newsTitle": "Новости"
+  "newsTitle": "Новости",
+  "adminNews": "Управление новостями",
+  "newsList": "Список новостей",
+  "publish": "Опубликовать",
+  "updateNews": "Обновить новость",
+  "edit": "Редактировать",
+  "delete": "Удалить",
+  "pin": "Закрепить",
+  "unpin": "Открепить",
+  "pinNews": "Закрепить новость",
+  "editingNews": "Редактирование новости...",
+  "fillAllTitles": "Заполните все заголовки",
+  "newsPublished": "Новость опубликована",
+  "newsUpdated": "Новость обновлена",
+  "newsDeleted": "Новость удалена",
+  "newsPinned": "Новость закреплена",
+  "newsUnpinned": "Новость откреплена",
+  "deleteNewsConfirmation": "Удалить новость?",
+
+  "cancel": "Отмена",
+  "titlePlaceholder": "Заголовок",
+  "contentPlaceholder": "Текст новости",
+  "publishNews": "Опубликовать новость",
+  "saving": "Сохранение...",
+  "pinnedBadge": "Закреплено",
+  "noNews": "Новостей пока нет",
+  "confirmDelete": "Удалить эту новость?",
+  "type_important": "Важно",
+  "type_transport": "Транспорт",
+  "type_vacation": "Отпуск",
+  "type_absence": "Прогулы",
+  "type_contact": "Контакты",
+  "type_schedule": "График",
+  "type_other": "Другое"
+
 
 
 }

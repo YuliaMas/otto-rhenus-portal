@@ -153,7 +153,7 @@
 
    "newsTitle": "News",
 
-   "adminNews": "Admin News",
+   "adminNews": "Add & Change News",
    "publish": "Publish",
    "updateNews": "Update News",
    "pinNews": "Pin news",
@@ -169,7 +169,23 @@
    "newsDeleted": "News deleted",
    "newsPinned": "News pinned",
    "newsUnpinned": "News unpinned",
-   "deleteNewsConfirmation": "Delete news?"
+   "deleteNewsConfirmation": "Delete news?",
+
+   "cancel": "Cancel",
+   "titlePlaceholder": "Title",
+   "contentPlaceholder": "Content",
+   "publishNews": "Publish News",
+   "saving": "Saving...",
+   "pinnedBadge": "Pinned",
+   "noNews": "No news found",
+   "confirmDelete": "Delete news?",
+   "type_important": "Important",
+   "type_transport": "Transport",
+   "type_vacation": "Vacation",
+   "type_absence": "Absence",
+   "type_contact": "Contact",
+   "type_schedule": "Schedule",
+   "type_other": "Other"
 
 
   }

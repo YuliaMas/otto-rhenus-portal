@@ -21,7 +21,7 @@ const defaultLanguage =
         browserLanguage
     )
         ? browserLanguage
-        : "uak";
+        : "ua";
 
 i18n.use(initReactI18next).init({
     resources: {

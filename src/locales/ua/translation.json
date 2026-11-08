@@ -196,7 +196,24 @@
   "newsDeleted": "Новину видалено",
   "newsPinned": "Новину закріплено",
   "newsUnpinned": "Новину відкріплено",
-  "deleteNewsConfirmation": "Видалити новину?"
+  "deleteNewsConfirmation": "Видалити новину?",
+
+  "cancel": "Скасувати",
+  "titlePlaceholder": "Заголовок",
+  "contentPlaceholder": "Текст новини",
+  "publishNews": "Опублікувати новину",
+  "saving": "Збереження...",
+  "pinnedBadge": "Закріплено",
+  "noNews": "Новин поки немає",
+  "confirmDelete": "Видалити цю новину?",
+  "type_important": "Важливо",
+  "type_transport": "Транспорт",
+  "type_vacation": "Відпустка",
+  "type_absence": "Прогули",
+  "type_contact": "Контакти",
+  "type_schedule": "Графік",
+  "type_other": "Інше"
+
 
 }
 

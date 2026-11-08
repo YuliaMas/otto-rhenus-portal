@@ -1,4 +1,6 @@
-export const newsIcons = {
+import type { NewsType } from "../types/news_type";
+
+export const newsIcons: Record<NewsType, string> = {
     transport: "🚌",
     vacation: "🏖️",
     absence: "❌",
