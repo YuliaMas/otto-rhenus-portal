@@ -176,7 +176,27 @@
   "loginDescription": "Введіть код доступу",
   "loginPlaceholder": "Пароль",
   "loginButton": "Увійти",
-  "loginError": "Невірний пароль"
+  "loginError": "Невірний пароль",
+
+  "newsTitle": "Новини",
+
+  "adminNews": "Керування новинами",
+  "newsList": "Список новин",
+  "publish": "Опублікувати",
+  "updateNews": "Оновити новину",
+  "edit": "Редагувати",
+  "delete": "Видалити",
+  "pin": "Закріпити",
+  "unpin": "Відкріпити",
+  "pinNews": "Закріпити новину",
+  "editingNews": "Редагування новини...",
+  "fillAllTitles": "Заповніть усі заголовки",
+  "newsPublished": "Новину опубліковано",
+  "newsUpdated": "Новину оновлено",
+  "newsDeleted": "Новину видалено",
+  "newsPinned": "Новину закріплено",
+  "newsUnpinned": "Новину відкріплено",
+  "deleteNewsConfirmation": "Видалити новину?"
 
 }
 

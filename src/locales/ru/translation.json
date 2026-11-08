@@ -153,7 +153,10 @@
   "loginDescription": "Введите код доступа",
   "loginPlaceholder": "Пароль",
   "loginButton": "Войти",
-  "loginError": "Неверный пароль"
+  "loginError": "Неверный пароль",
+
+
+  "newsTitle": "Новости"
 
 
 }

@@ -26,31 +26,31 @@ export default function Information() {
                     ℹ️ {t("infoTitle")}
                 </h1>
 
-                {/* LAST CHANGES */}
+                {/*/!* LAST CHANGES *!/*/}
 
-                <div className="mb-8 rounded-2xl bg-orange-50 p-6">
+                {/*<div className="mb-8 rounded-2xl bg-orange-50 p-6">*/}
 
-                    <h2 className="mb-4 text-2xl font-bold text-orange-700">
-                        📢 {t("importantUpdates")}
-                    </h2>
+                {/*    <h2 className="mb-4 text-2xl font-bold text-orange-700">*/}
+                {/*        📢 {t("importantUpdates")}*/}
+                {/*    </h2>*/}
 
-                    <ul className="space-y-3">
+                {/*    <ul className="space-y-3">*/}
 
-                        <li>
-                            ✅ {t("transportUpdate")}
-                        </li>
+                {/*        <li>*/}
+                {/*            ✅ {t("transportUpdate")}*/}
+                {/*        </li>*/}
 
-                        <li>
-                            ✅ {t("jesionowaUpdate")}
-                        </li>
+                {/*        <li>*/}
+                {/*            ✅ {t("jesionowaUpdate")}*/}
+                {/*        </li>*/}
 
-                        <li>
-                            ✅ {t("wrzesniaUpdate")}
-                        </li>
+                {/*        <li>*/}
+                {/*            ✅ {t("wrzesniaUpdate")}*/}
+                {/*        </li>*/}
 
-                    </ul>
+                {/*    </ul>*/}
 
-                </div>
+                {/*</div>*/}
 
                 {/* SHIFTS */}
 
@@ -182,28 +182,39 @@ export default function Information() {
                         flex center justify-center
                     "
                 >
-                        <div>
-                            <h2
-                                className="
+                    <div>
+                        <h2
+                            className="
                                     mb-5 text-2xl font-bold
                                 "
-                            >
-                                🏭 Rhenus Swarzędz
-                            </h2>
+                        >
+                            🏭 Rhenus Swarzędz
+                        </h2>
 
-                            <ul className="space-y-3">
+                        <ul className="space-y-3">
 
-                                <li>ul. Rabowicka 61-71,
-                                    62-020 Jasin </li>
+                            <li>ul. Rabowicka 61-71,
+                                62-020 Jasin
+                            </li>
 
-                                <li>ul. Rabowicka 77,
-                                    62-020 Jasin </li>
-                            </ul>
-                        </div>
+                            <li>ul. Rabowicka 77,
+                                62-020 Jasin
+                            </li>
+                        </ul>
+
+
+                    </div>
 
                 </div>
 
-
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.535421356392!2d17.126632977115168!3d52.39697177202895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470458ca124e9613%3A0x1c93dfd77de61c7b!2sRabowicka%2067%2C%2062-020%20Jasin!5e0!3m2!1spl!2spl!4v1794134651956!5m2!1spl!2spl"
+                    width="600" height="450"  loading="lazy" referrerPolicy="strict-origin-when-cross-origin" className="
+                    mt-5
+                    h-72
+                    w-full
+                    rounded-xl
+                    "></iframe>
             </div>
 
         </div>

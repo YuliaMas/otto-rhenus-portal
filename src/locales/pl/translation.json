@@ -147,9 +147,13 @@
   "loginDescription": "Wprowadź kod dostępu",
   "loginPlaceholder": "Hasło",
   "loginButton": "Zaloguj się",
-  "loginError": "Nieprawidłowe hasło"
+  "loginError": "Nieprawidłowe hasło",
 
+  "newsTitle": "Aktualności",
 
+  "adminNews": "Aktualności - panel",
+  "publish": "Publikuj",
+  "updateNews": "Aktualizuj"
 
 }
 

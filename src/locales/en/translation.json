@@ -149,7 +149,27 @@
    "loginDescription": "Enter access code",
    "loginPlaceholder": "Password",
    "loginButton": "Sign In",
-   "loginError": "Invalid password"
+   "loginError": "Invalid password",
+
+   "newsTitle": "News",
+
+   "adminNews": "Admin News",
+   "publish": "Publish",
+   "updateNews": "Update News",
+   "pinNews": "Pin news",
+   "newsList": "News List",
+   "edit": "Edit",
+   "delete": "Delete",
+   "pin": "Pin",
+   "unpin": "Unpin",
+   "editingNews": "Editing existing news...",
+   "fillAllTitles": "Fill all titles",
+   "newsPublished": "News published",
+   "newsUpdated": "News updated",
+   "newsDeleted": "News deleted",
+   "newsPinned": "News pinned",
+   "newsUnpinned": "News unpinned",
+   "deleteNewsConfirmation": "Delete news?"
 
 
   }
